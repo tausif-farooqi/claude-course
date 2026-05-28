@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180",
+      "weight": "85",
+      "goal": "build muscle while reducing body fat from 18% to 15%",
+      "restrictions": "paleolithic diet, some dairy is okay, no grains"
+    },
+    "solution_criteria": [
+      "Meal plan is compact and fits within 1 day",
+      "Provides caloric intake supporting muscle gain with modest fat loss (approximately 300-500 calorie deficit)",
+      "Contains adequate protein (1.6-2.2g per kg body weight) distributed across meals",
+      "Includes whole foods suitable for a sedentary office worker transitioning to gym routine"
+    ],
+    "task_description": "Write a compact, consise, 1 day meal plan for someone who wants to build muscle and move down to 15% body fat from 18% body fat.",
+    "scenario": "Testing with a sedentary office worker (minimal exercise baseline) transitioning to a structured gym routine, requiring calorie surplus management for muscle gain while maintaining modest deficit for fat loss"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180",
+      "weight": "85",
+      "goal": "build muscle and reduce body fat from 18% to 15%",
+      "restrictions": "vegan, nut allergy"
+    },
+    "solution_criteria": [
+      "Meal plan includes 4-5 meals distributed throughout the day with adequate protein from non-animal, non-nut sources (legumes, tofu, tempeh, seeds, plant-based protein powder)",
+      "Macros support muscle building and fat loss with caloric deficit and protein intake of at least 1.6g per kg body weight",
+      "All meals are free from animal products and tree nuts/peanuts",
+      "Plan is compact and concise, fitting on a single page with clear meal timing"
+    ],
+    "task_description": "Write a compact, consise, 1 day meal plan for someone who wants to build muscle and move down to 15% body fat from 18% body fat.",
+    "scenario": "Testing with dietary restrictions (vegetarian/vegan or food allergies) to verify the prompt can adapt macro distribution and protein sources while maintaining the muscle-building and fat-loss objectives"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "75 kg",
+      "goal": "Build lean muscle and reduce body fat from 18% to 15% while maintaining high cardio training volume (running 60-80 km/week)",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan is compact and covers exactly one full day with 4-5 meals",
+      "Caloric intake supports fat loss while preserving muscle (slight deficit appropriate for athlete with high cardio expenditure)",
+      "Protein intake is sufficient for muscle building during strength training (minimum 1.6g per kg body weight)",
+      "Macronutrient distribution balances energy for cardio and recovery from strength work without excessive bulk"
+    ],
+    "task_description": "Write a compact, consise, 1 day meal plan for someone who wants to build muscle and move down to 15% body fat from 18% body fat.",
+    "scenario": "Testing with an athlete already doing intense cardio training (runner or cyclist) who needs to add strength training nutrition without excessive bulk, balancing high activity expenditure with lean muscle goals"
+  }
+]
